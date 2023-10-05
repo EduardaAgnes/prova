@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    background-color: rgb(34, 32, 32);
+    color: white;
+}
+h2{
+    background-image: linear-gradient(to left,blue,green);
+    color: white;
+}
+.sessao-image{
+    width: 250px;
+    height: 250px;
+    background-image: none;
+}
+.back{
+    background-image: url(download.png);
+    color: transparent;
+    width: 300px;
+    height: 180px;
+
+}
+p{
+    text-align: right;
+    text-align: justify;
+
+}
+ul{
+    list-style: none;
+}
+/*  link não vistado */
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+
+/* link visitado */
+a:visited {
+    color: blue;
+    text-decoration: none;
+}
+
+/* passando mouse */
+a:hover {
+    color: blue;
+    text-decoration:underline;
+}
+
+/*  link selecionado */
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+.imagem-da-lista{
+    list-style-image: url(download.png);
+}
+.image-list{
+    width: 20px;
+    height: 20px;
+    
+}
